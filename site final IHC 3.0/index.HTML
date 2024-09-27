@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="images/Clip_path_grouplogo.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="div__cabecalho"><a href="index.HTML"><img class="logo" src="images/Clip_path_grouplogo.png" alt="Logo do site AutoInsight: Um desenho de um carro em alta velocidade com os dizeres autoinsight embaixo"
+                    height="55px"></a></div>
+        <div class="widgets__cabecalho">
+            <a href="noticias.html" class="link__cabecalho">
+                <p>Notícias</p>
+            </a>
+            <a href="Resultado-Pesquisa.html" class="link__cabecalho">
+                <p>Buscas</p>
+            </a>
+            <a href="categorias.html" class="link__cabecalho">
+                <p>Categorias</p>
+            </a>
+        </div>
+        <div class="elementos__cabecalho">
+            <a href="Favoritos.html"><img src="images/Clip_path_groupcoracao.png" alt="ícone de coração" height="30px"></a>
+            <a href="notificacoes.html"><img src="images/Clip_path_groupsino.png" alt="ícone de sino" height="30px"></a>
+            <a href="Login.html"><img src="images/Clip_path_groupperfil.png" alt="ícone de perfil" height="30px"></a>
+        </div>
+    </header>
+    <main>
+        <section class="secao__principal">
+            <div class="filtros">
+                <div class="especificacoes">
+                    <div class="marca">
+                        Marca
+                        <select name="marca" class="select-style">
+                            <option value="">Marca</option>
+                            <option value="Lamborghini">Lamborghini</option>
+                        </select>
+                    </div>
+                    <div class="modelo">
+                        Modelo
+                        <select name="modelo" class="select-style">
+                            <option value="">Modelo</option>
+                            <option value="modelo1">Húracan</option>
+                        </select>
+                    </div>
+                    <div class="ano">
+                        Ano
+                        <select name="ano" class="select-style">
+                            <option value="">Ano</option>
+                            <option value="2017">2015</option>
+                        </select>
+                    </div>
+                    <div class="motor">
+                        Motor
+                        <select name="motor" class="select-style">
+                            <option value="">Motor</option>
+                            <option value="5.2">5.2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa__lupa">
+                <div><input class="barra__pesquisa" placeholder="Busque Aqui" type="search"></div>
+                <div class="lupa"><img class="lupa__img"
+                        src="images/5279826-icone-de-lupa-ou-lupa-cor-branca-vetor-removebg-preview.png"></div>
+            </div>
+        </section>
+        <div class="ad">AD</div>
+        <section class="sugestoes">
+            <h2 class="title-sugestoes">Sugestões:</h2>
+            <div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><div class="texto-carro"><img class="carros" src="images/onix2.png" alt="Um carro da marca Chevrolet, modelo Onix, de cor preta, de lado com o por do sol ao fundo"><h2>Chevrolet Onix</h2><p>1.0 LT SPE/4</p><p>2017</p><a class="botao-carro" href="">Ficha Técnica</a></div></div>
+                        <div class="swiper-slide"><div class="texto-carro"><img class="carros" src="images/Design sem nome (2).png" alt="Um carro da marca Lamborghini, modelo Huracan, de cor prata, em alta velocidade em uma rua"><h2>Lamborghini Huracan</h2><p>5.2 V10 LP 640 STO LDF</p><p>2015</p><a class="botao-carro" href="Comprar-Carro.html">Ficha Técnica</a></div></div>
+                        <div class="swiper-slide"><div class="texto-carro"><img class="carros" src="images/carro 1.jpg" alt="Um carro da marca Ford, modelo Ka, de cor vermelha, de lado em um estacionamento"><h2>Ford Ka</h2><p>SE 1.0</p><p>2015</p><a class="botao-carro" href="">Ficha Técnica</a></div></div>
+                        <div class="swiper-slide"><div class="texto-carro"><img class="carros" src="images/carro 2.jpg" alt="Um carro da marca Honda, modelo Civic, de cor branca, de lado com uma floresta e uma serra ao fundo"><h2>Honda Civic</h2><p>2.0 16V FLEXONE EXL 4P</p><p>2017</p><a class="botao-carro" href="">Ficha Técnica</a></div></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sugestoes fix">
+            <h2 class="title-sugestoes tite">Principais Notícias:</h2>
+            <div>
+                <div class="swiper caixa">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><div class="texto-carro news"><img class="carros" src="images/1.png" alt="Porsche parada no pit stop da porsche cup"><div class="alta"><h2>Porsche inaugurará fábrica de gasolina que não polui nem usa petróleo.</h2><p>Com 70% de todos seus carros fabricados ainda rodando, alemã reforça atenção ao futuro dos carros não-elétricos e para o futuro da aviação.</p><h6>Publicado em 9 mar 2022, 12h00</h6><a class="botao-carro not" href="https://quatrorodas.abril.com.br/noticias/porsche-inicia-obras-de-usina-de-gasolina-sintetica-para-salvar-esportivos/mobile">Saiba Mais</a></div></div></div>
+                        <div class="swiper-slide"><div class="texto-carro news"><img class="carros" src="images/2.png" alt="Concessionária byd após o incêndio causado ser apagado"><div class="alta"><h2>Concessionária BYD pega fogo e suspeita cai sobre carro elétrico.</h2><p>Incêndio aconteceu em revenda da marca na China, mas marca se defende e garante que foram problemas na parte elétrica que o provocaram.</p><h6>Publicado em 20/05/2024, 10h09</h6><a class="botao-carro not" href="https://autopapo.uol.com.br/curta/concessionaria-byd-pega-fogo/#">Saiba Mais</a></div></div></div>
+                        <div class="swiper-slide"><div class="texto-carro news"><img class="carros" src="images/3.png" alt="Prédio de seguradora inundado"><div class="alta"><h2>Seguro não cobre e locadoras do RS perdem 3.000 carros em enchentes.</h2><p>O prejuízo é de R$ 336 milhões e a estimativa é que 3.000 carros foram perdidos só em Porto Alegre e serão leiloados como sucata.</p><h6>Publicado em 3 jun 2024, 17h00</h6><a class="botao-carro not" href="https://quatrorodas.abril.com.br/noticias/seguro-nao-cobre-e-locadoras-do-rs-perdem-3-000-carros-em-enchentes/">Saiba Mais</a></div></div></div>
+                        <div class="swiper-slide"><div class="texto-carro news"><img class="carros" src="images/4.png" alt="O piloto Ocon colocando o intercomunicador do capacete"><div class="alta"><h2>Reta final: Alpine "chuta" Ocon, Max dá desculpas antes do Canadá, e Márquez na Ducati.</h2><p>Programa analisa mercado de pilotos da F1 após 'demissão' e Ocon.</p><h6>Publicado em 3 de jun. de 2024, 18:19</h6><a class="botao-carro not" href="https://motorsport.uol.com.br/f1/news/reta-final-alpine-chuta-ocon-max-da-desculpas-antes-do-canada-e-marquez-na-ducati/10619336/">Saiba Mais</a></div></div></div>
+                        <div class="swiper-slide"><div class="texto-carro news"><img class="carros" src="images/5.png" alt="Fiat Tipo vermelho"><div class="alta"><h2>De incêndio a chassi trincado: os 12 recalls mais polêmicos do Brasil.</h2><p>Já aconteceu de tudo quando o assunto é recall: em alguns casos, os fabricantes só fizeram a convocação por determinação da justiça.</p><h6>Publicado em 12/07/2020 às 09h56</h6><a class="botao-carro not" href="https://autopapo.uol.com.br/noticia/recall-12-defeitos-mais-polemicos/">Saiba Mais</a></div></div></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <section class="rodape__secao">
+        <div class="rodape__secao__div">
+            <h1>Informações</h1>
+            <a href="#" class="link__rodape"><p>Sobre nós</p></a>
+            <a href="#" class="link__rodape"><p>Trabalhe conosco</p></a>
+            <a href="#" class="link__rodape"><p>Local da empresa</p></a>
+        </div>
+        <div class="rodape__secao__div">
+            <h1>Redes Sociais:</h1>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/instagram.png" class="imagem__rodape" alt="Logo do instagram">@AutoInsight</p></a>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/x.png" class="imagem__rodape" alt="Logo do twitter">@AutoInsight</p></a>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/facebook.png" class="imagem__rodape" alt="Logo do facebook">AutoInsight</p></a>
+        </div>
+        <div class="rodape__secao__div">
+            <h1>Contato:</h1>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/gmail.png" class="imagem__rodape" alt="Logo do gmail">auto.insight@gmail.com</p></a>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/telefone.png" class="imagem__rodape" alt="Icone de um telefone">(61) 981489023</p></a>
+            <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/whatsapp.png" class="imagem__rodape" alt="Logo do whatsapp">(61) 981489023</p></a>
+        </div>
+        </section>
+        <section class="secao__direitos">
+        <a href="#" class="direitos__autorais"><p>© 2024/AutoInsight</p></a>
+    </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+        });
+    </script>
+</body>
+
+</html>

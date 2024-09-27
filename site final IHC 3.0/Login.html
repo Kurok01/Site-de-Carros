@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#5C6078;
+        }
+
+        .cabecalho{
+    margin: 0 0 50px 0;
+    background-color: #1F212C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    color: white;
+}
+.div__cabecalho{
+    display: flex;
+    margin-left: 60px;
+    height: 55px;
+}
+.widgets__cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link__cabecalho{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+.elementos__cabecalho{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    margin-right: 60px;
+}
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .login-geral {
+            max-width: 300px;
+            margin: 100px auto;
+            background-color: #1F212C;
+            padding: 33px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0e519c;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1F212C;
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+        }
+        .rodape{
+    background-color: #14151b;
+    color: white;
+}
+.rodape__secao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding:2em 4em 1em 4em;
+}
+.rodape__secao__div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+.imagem__rodape{
+    width: 20px;
+}
+.rodape__secao__div-texto{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.link__rodape{
+    text-decoration: none;
+    color: white;
+}
+.direitos__autorais{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.644);
+}
+.secao__direitos{
+    text-align: center;
+    border-top: 1px solid rgba(245, 245, 245, 0.644);
+    padding: 10px 90px 10px 0;
+}
+.cadastro__titulo{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+    text-align: center;
+}
+.cadastro__botao{
+    margin-top: 0;
+}
+.fazer-outra-senha{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 12px;
+    margin-left: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="div__cabecalho"><a href="index.HTML"><img class="logo" src="images/Clip_path_grouplogo.png" alt="Logo do site AutoInsight: Um desenho de um carro em alta velocidade com os dizeres autoinsight embaixo"
+                    height="55px"></a></div>
+        <div class="widgets__cabecalho">
+            <a href="noticias.html" class="link__cabecalho">
+                <p>Notícias</p>
+            </a>
+            <a href="Resultado-Pesquisa.html" class="link__cabecalho">
+                <p>Buscas</p>
+            </a>
+            <a href="categorias.html" class="link__cabecalho">
+                <p>Categorias</p>
+            </a>
+        </div>
+        <div class="elementos__cabecalho">
+            <a href="Favoritos.html"><img src="images/Clip_path_groupcoracao.png" alt="ícone de coração" height="30px"></a>
+            <a href="notificacoes.html"><img src="images/Clip_path_groupsino.png" alt="ícone de sino" height="30px"></a>
+            <a href="Login.html"><img src="images/Clip_path_groupperfil.png" alt="ícone de perfil" height="30px"></a>
+        </div>
+    </header>
+    <section class="section">
+        <div class="login-geral">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">usuario:</label>
+                    <input type="text" id="username" name="username" placeholder="e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+                </div>
+                <button type="submit">Fazer login</button>
+            </form>
+                <a href="senha.html" class="fazer-outra-senha">Esqueci a senha</a>
+                <h3 class="cadastro__titulo">Ainda não tem cadastro?</h2>
+                <a href="cadastre-se.html"><button type="submit" class="cadastro__botao">Cadastrar-se</button></h3></a>
+        </div>
+        <footer class="rodape">
+            <section class="rodape__secao">
+            <div class="rodape__secao__div">
+                <h1>Informações</h1>
+                <a href="#" class="link__rodape"><p>Sobre nós</p></a>
+                <a href="#" class="link__rodape"><p>Trabalhe conosco</p></a>
+                <a href="#" class="link__rodape"><p>Local da empresa</p></a>
+            </div>
+            <div class="rodape__secao__div">
+                <h1>Redes Sociais:</h1>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/instagram.png" class="imagem__rodape" alt="Logo do instagram">@AutoInsight</p></a>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/x.png" class="imagem__rodape" alt="Logo do twitter">@AutoInsight</p></a>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/facebook.png" class="imagem__rodape" alt="Logo do facebook">AutoInsight</p></a>
+            </div>
+            <div class="rodape__secao__div">
+                <h1>Contato:</h1>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/gmail.png" class="imagem__rodape" alt="Logo do gmail">auto.insight@gmail.com</p></a>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/telefone.png" class="imagem__rodape" alt="Icone de um telefone">(61) 981489023</p></a>
+                <a href="#" class="link__rodape"><p class="rodape__secao__div-texto"><img src="images/whatsapp.png" class="imagem__rodape" alt="Logo do whatsapp">(61) 981489023</p></a>
+            </div>
+            </section>
+            <section class="secao__direitos">
+            <a href="#" class="direitos__autorais"><p>© 2024/AutoInsight</p></a>
+        </section>
+        </footer>
+</body>
+
+</html>
